@@ -1,0 +1,8 @@
+✔ Create a Repo @done(23-03-30 11:09) @critical
+✔ Init Node @today @done(23-04-02 13:11)
+✔ Init JEST @high @done(23-04-02 13:14)
+    ✔ Assert True=True to check if system is init properly @low @done(23-04-02 13:49)
+✔ Create 1st test: Sum Test (TDD) @med @done(23-04-02 13:56)
+☐ Refactor project into TS @low
+☐ Read https://eloquentjavascript.net/00_intro.html @high
+Work specific: node css, html, next, nest, JS, Me Specific: DBs, APIx
