@@ -5,4 +5,5 @@
 ✔ Create 1st test: Sum Test (TDD) @med @done(23-04-02 13:56)
 ☐ Refactor project into TS @low
 ☐ Read https://eloquentjavascript.net/00_intro.html @high
+☐ Make userInputCalc loop so it only ends when user writes "exit"
 Work specific: node css, html, next, nest, JS, Me Specific: DBs, APIx

@@ -1,4 +1,5 @@
-import { sum } from "../index";
+import { divide, minus, multiply, sum } from "../index";
+
 // test("true=true system check", () => {
 //   expect(true).toBe(true);
 // });
@@ -14,5 +15,23 @@ describe("sum", () => {
 
   test("add zeros", () => {
     expect(sum(0, 0)).toBe(0);
+  });
+});
+
+describe("minus", () => {
+  test("minus positive integers", () => {
+    expect(minus(100, 99)).toBe(1);
+  });
+});
+
+describe("multiply", () => {
+  test("times positive integers", () => {
+    expect(multiply(3, 5)).toBe(15);
+  });
+});
+
+describe("divide", () => {
+  test("divide positive integers", () => {
+    expect(divide(50, 10)).toBe(5);
   });
 });
