@@ -5,7 +5,7 @@ import { divide, minus, multiply, sum } from "../index";
 // });
 
 describe("sum", () => {
-  test("add positive integers", () => {
+  test("should add positive integers", () => {
     expect(sum(50, 60)).toBe(110);
   });
 

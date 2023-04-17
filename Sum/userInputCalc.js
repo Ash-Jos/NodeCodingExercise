@@ -4,7 +4,7 @@ var readline = require('readline-sync');
 function inputCalc() {
     var firstNum;
     var secondNum;
-    var ans = 0;
+    var ans;
     var operator;
     do {
         var input1 = readline.question('Enter first number: '); // prompts user for input

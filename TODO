@@ -6,4 +6,14 @@
 ☐ Refactor project into TS @low
 ☐ Read https://eloquentjavascript.net/00_intro.html @high
 ☐ Make userInputCalc loop so it only ends when user writes "exit"
+update Sum funciton with what we did in meeting (edge cases)
+update Jest test to work with proper compiler 
+We learnt about: ...values, rest parameter, 
+what is prototypal inheritance?
+what is babel?
+
+
+
+
+
 Work specific: node css, html, next, nest, JS, Me Specific: DBs, APIx
