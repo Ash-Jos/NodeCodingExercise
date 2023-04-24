@@ -1,4 +1,5 @@
 // import * as readline from 'readline-sync'; // --experimental-modules
+import * as React from 'react';
 const readline = require('readline-sync');
 // import readline from 'readline-sync';
 
@@ -48,3 +49,43 @@ function inputCalc(): number {
 
 };
 inputCalc();
+
+// for (let i = 1; i <= 7; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row += "#";
+//   }
+//   console.log(row);
+// }
+
+// Fizz - Buzz
+// for (let i = 1; i <= 100; i++) {
+//   let output = "";
+//   if (i % 3 === 0) {
+//     output += "Fizz";
+//   }
+//   if (i % 5 === 0) {
+//     output += "Buzz";
+//   }
+//   console.log(output || i);
+// }
+
+// >>>>>>>>>>>>>>>>>>>>Flattening Arrays --incomplete<<<<<<<<<<<<<<<<<<<<
+// function concatArrays(arrays: any[]) {
+//     return arrays.reduce((accumulator, value) => accumulator.concat(value), []);
+//   }
+//   const a = [["a", "b", "c"], ["a", "b", "c"], ["a", "b", "c"]];
+//   const result = concatArrays(a);
+//   console.log(result);
+
+function concatArrays(arrays: any[]) {
+    return arrays.reduce((accumulator, value) => {
+      return accumulator.concat(value);
+    });
+  }
+  
+  const a = [["a", "b", "c"], ["1", "2", "3"], ["apple", "ape", "airplane"]];
+  const result = concatArrays(a);
+  console.log(result);
+  
+  

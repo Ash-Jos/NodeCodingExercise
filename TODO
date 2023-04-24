@@ -3,14 +3,24 @@
 ✔ Init JEST @high @done(23-04-02 13:14)
     ✔ Assert True=True to check if system is init properly @low @done(23-04-02 13:49)
 ✔ Create 1st test: Sum Test (TDD) @med @done(23-04-02 13:56)
-☐ Refactor project into TS @low
-☐ Read https://eloquentjavascript.net/00_intro.html @high
-☐ Make userInputCalc loop so it only ends when user writes "exit"
-update Sum funciton with what we did in meeting (edge cases)
-update Jest test to work with proper compiler 
-We learnt about: ...values, rest parameter, 
-what is prototypal inheritance?
-what is babel?
+✔ Refactor project into TS @low @done(23-04-22 21:09)
+☐ Read https://eloquentjavascript.net/00_intro.html @high @started(23-04-22 21:10)
+
+☐ update Sum funciton with what we did in meeting (edge cases)
+☐ update Jest test to work with proper compiler 
+
+☐ what is prototypal inheritance?
+☐ what is babel?
+
+☐ Clean up code (remove comments) 
+
+☐ Refactor underInputCacl to include restparamater
+
+
+
+
+
+
 
 
 
